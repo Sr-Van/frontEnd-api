@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="/src/app/js/index.js" defer></script>
+    <script type="module" src="/src/app/jsservices.js" defer></script>
+
+    <link rel="stylesheet" href="https://tinyurl.com/yl57njca">
+    <link rel="stylesheet" href="src/app/css/main.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+
+    <form style="display: flex;
+    flex-direction: column;
+     width: 400px;" class="df ghalf">
+        <label for="product">Produto:</label>
+        <input type="text" id="product">
+
+        <label for="price">Preco:</label>
+        <input type="text" id="price">
+
+        <label for="type">Tipo:</label>
+        <select name="type" id="type">
+            <option value="acessories">Acessorios</option>
+            <option value="eletronics">Eletronicos</option>
+            <option value="variety">Variedades</option>
+            <option value="bags">Bolsas</option>
+        </select>
+
+        <label for="description">Descricao:</label>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+
+        <button id="button"
+        style="margin-top: 30px;">Enviar</button>
+    </form>
+
+
+</body>
+</html>
